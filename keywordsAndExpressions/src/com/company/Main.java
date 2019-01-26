@@ -8,6 +8,6 @@ public class Main {
 
 	    if (highScore == 100)
             System.out.println("This is an expression");
-	         
+
     }
 }
