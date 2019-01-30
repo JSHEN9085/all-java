@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b99b74a2-e6f2-4da6-ace7-e27483c341ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../ByteShortInt" beforeDir="false" afterPath="$PROJECT_DIR$/../ByteShortInt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SecondsAndMinutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SecondsAndMinutes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java1" beforeDir="false" afterPath="$PROJECT_DIR$/../Java1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Overloading/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Overloading/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Overloading/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Overloading/src/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/SecondsAndMinutes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="93">
+              <caret line="33" column="48" lean-forward="true" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -101,7 +100,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548882842620" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548884255154" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -227,8 +226,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/SecondsAndMinutes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="93">
+          <caret line="33" column="48" lean-forward="true" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
         </state>
       </provider>
     </entry>
