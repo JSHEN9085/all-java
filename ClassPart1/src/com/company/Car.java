@@ -11,7 +11,7 @@ public class Car {
         if (model == "911" || model == "Cayenne"){
             this.model = model;
         } else {
-            this.model = "unknown"; 
+            this.model = "unknown";
         }
     }
 
