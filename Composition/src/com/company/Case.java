@@ -4,7 +4,7 @@ public class Case {
     private String model;
     private String manufacturer;
     private String powerSupply;
-    private Dimensions dimensions;
+    private Dimensions dimensions; //this is another class
 
     public Case(String model, String manufacturer, String powerSupply, Dimensions dimensions) {
         this.model = model;
