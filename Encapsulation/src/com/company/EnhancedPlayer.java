@@ -7,7 +7,7 @@ public class EnhancedPlayer {
 
     public EnhancedPlayer(String name, int health, String weapon) {
         this.name = name;
-        if (health > 0 && health <= 100){ //if argument is outside of 0 ~ 100, constructor will set it as 100 default at line 5;
+        if (health > 0 && health <= 100){
             this.HP = health;
         }
         this.weapon = weapon;
