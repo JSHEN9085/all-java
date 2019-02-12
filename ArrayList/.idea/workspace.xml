@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2911889f-43b9-441b-8da8-206069cdf4c8" name="Default Changelist" comment="">
+    <list default="true" id="80151b90-7ea6-4d49-ad8a-5d73fc605011" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ArrayPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ArrayPractice/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ByteShortInt" beforeDir="false" afterPath="$PROJECT_DIR$/../ByteShortInt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FindMin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FindMin/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java1" beforeDir="false" afterPath="$PROJECT_DIR$/../Java1" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,13 +19,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="2628">
+              <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/GroeryList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1296">
+              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -31,6 +49,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/com/company/GroeryList.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
@@ -46,12 +65,33 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ArrayList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArrayList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArrayList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArrayList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArrayList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArrayList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549989943610" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549993779449" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -68,7 +108,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="FindMin" />
+      <module name="ArrayList" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -87,11 +127,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2911889f-43b9-441b-8da8-206069cdf4c8" name="Default Changelist" comment="" />
-      <created>1549989246921</created>
+      <changelist id="80151b90-7ea6-4d49-ad8a-5d73fc605011" name="Default Changelist" comment="" />
+      <created>1549990180935</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1549989246921</updated>
+      <updated>1549990180935</updated>
     </task>
     <servers />
   </component>
@@ -104,12 +144,12 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14020029" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12804006" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
@@ -128,10 +168,24 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14101">
+          <caret line="548" column="24" lean-forward="true" selection-start-line="548" selection-start-column="24" selection-end-line="548" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/GroeryList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="2628">
+          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
         </state>
       </provider>
     </entry>
