@@ -39,4 +39,47 @@ public class Main {
             }
         }
     }
+
+    public static void printInstruction() {
+        System.out.println("\nPress ");
+        System.out.println("\t 0 - To print choice options");
+        System.out.println("\t 1 - To print the list of grocery items");
+        System.out.println("\t 2 - To add an item to the list");
+        System.out.println("\t 3 - To modify an item in the list");
+        System.out.println("\t 4 - To remove an item from the list");
+        System.out.println("\t 5 - To search for an item to the list");
+        System.out.println("\t 6 - To quit the application");
+    }
+
+    public static void addItem(){
+        System.out.print("Please enter the grocery item: "); //println will automatically go to next line, while print won't;
+        groeryList.addGroceryItem(scanner.nextLine());
+    }
+
+    public static void modifyItem(){
+        System.out.print("Enter item number");
+        int itemNo = scanner.nextInt();
+        scanner.nextLine();
+        System.out.print("Enter replacement item");
+        String itemName = scanner.nextLine();
+        groeryList.modifyGroceryItem(itemNo, itemName);
+    }
+
+    public static void removeItem(){
+        System.out.print("Enter item number");
+        int itemNo = scanner.nextInt();
+        scanner.nextLine();
+        groeryList.removeGroceryItem(itemNo);
+    }
+
+    public static void searchForItem() {
+        System.out.print("Enter item name");
+        String itemName = scanner.nextLine();
+        scanner.nextLine();
+        if (groeryList.findItem(itemName) != null){
+            System.out.println("Found " + itemName + " in your list");
+        } else {
+            System.out.println(itemName + " is not in the list");
+        }
+    }
 }
