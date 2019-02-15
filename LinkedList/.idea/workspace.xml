@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afae3495-a439-4d80-b02e-1c96b0e01a4b" name="Default Changelist" comment="">
+    <list default="true" id="149c3160-f8ba-4170-b34f-f9fb29cf10a6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AutoBoxingPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoBoxingPractice/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ByteShortInt" beforeDir="false" afterPath="$PROJECT_DIR$/../ByteShortInt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java1" beforeDir="false" afterPath="$PROJECT_DIR$/../Java1" afterDir="false" />
     </list>
@@ -14,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="864">
+              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -26,26 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-134">
-              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Branch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="17" column="43" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Bank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2196">
-              <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+            <state relative-caret-position="288">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -65,10 +48,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Customer.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Branch.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Bank.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
   </component>
@@ -82,23 +63,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="AutoBoxingPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoBoxingPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AutoBoxingPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoBoxingPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="AutoBoxingPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoBoxingPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -106,10 +85,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550267429953" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550268807042" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -126,7 +107,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="AutoBoxingPractice" />
+      <module name="LinkedList" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -134,17 +115,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="afae3495-a439-4d80-b02e-1c96b0e01a4b" name="Default Changelist" comment="" />
-      <created>1550098932045</created>
+      <changelist id="149c3160-f8ba-4170-b34f-f9fb29cf10a6" name="Default Changelist" comment="" />
+      <created>1550267502572</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1550098932045</updated>
+      <updated>1550267502572</updated>
     </task>
     <servers />
   </component>
@@ -157,14 +143,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12160229" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13018598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -180,31 +167,17 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Branch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="288">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Bank.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2196">
-          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        <state relative-caret-position="864">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>
