@@ -1,8 +1,6 @@
 package com.company;
 
-import static com.company.ThreadColor.ANSI_PURPLE;
-import static com.company.ThreadColor.ANSI_RED;
-import static com.company.ThreadColor.ANSI_GREEN;
+import static com.company.ThreadColor.*;
 
 
 public class Main {
@@ -11,6 +9,7 @@ public class Main {
         System.out.println(ANSI_PURPLE + "This is main");
 
         Thread anotherThread = new AnotherThread();
+        anotherThread.setName(" == another Thread == ");
         anotherThread.start();
 
         new Thread(){
@@ -19,6 +18,14 @@ public class Main {
             }
         }.start();
 
+        Thread myRunnableThread = new Thread (new MyRunnable() {
+            @Override
+            public void run() {
+                System.out.println(ANSI_RED + "hello fro anonymous class's implement of run()");
+            }
+        });
+
+        myRunnableThread.start();
         System.out.println(ANSI_PURPLE + "hello from main again");
 
 //        anotherThread.start();
