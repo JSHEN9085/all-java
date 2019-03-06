@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Theatre {
     private final String theatreName;
-    private List<Seat> seats = new ArrayList<Seat>();
+    public List<Seat> seats = new ArrayList<Seat>();
 //    private List<Seat> seats = new LinkedList<Seat>();
 //    private Collection<Seat> seats = new HashSet<>();
 //    private Collection<Seat> seats = new LinkedHashSet<>();
@@ -26,28 +26,25 @@ public class Theatre {
     }
 
     public boolean reserveSeat(String seatNumber){
-        Seat requestedSeat = new Seat(seatNumber);
-        int foundSeat = Collections.binarySearch(seats, requestedSeat, null);
-        if(foundSeat >= 0){
-            return seats.get(foundSeat).reserve();
-        } else {
-            System.out.println("There is no seat " + seatNumber);
-            return false;
+        int low = 0;
+        int high = seats.size() - 1;
+
+        while(low <= high){
+            int mid = (low + high) / 2;
+            Seat midVal = seats.get(mid);
+            int cmp = midVal.getSeatNumber().compareTo(seatNumber);
+            //The Java String compareTo() method is used for comparing two strings lexicographically.
+            //If both the strings are equal then this method returns 0 else it returns positive or negative value.
+            if(cmp < 0){
+                low = mid + 1;
+            } else if(cmp > 0){
+                high = mid - 1;
+            } else {
+                return seats.get(mid).reserve();
+            }
         }
-        
-        // replace below portion;
-//        for(Seat seat : seats){
-//            if(seat.getSeatNumber().equals(seatNumber)){
-//                requestedSeat = seat;
-//                break;
-//            }
-//        }
-//
-//        if(requestedSeat == null){
-//            System.out.println("These is no seat " + seatNumber);
-//            return false;
-//        }
-//        return requestedSeat.reserve();
+        System.out.println("There is no seat " + seatNumber);
+        return false;
     }
 
     public void getSeats() {
@@ -56,7 +53,7 @@ public class Theatre {
         }
     }
 
-    private class Seat implements Comparable<Seat> {
+    public class Seat implements Comparable<Seat> {
         private final String seatNumber;
         private boolean reserved = false;
 
