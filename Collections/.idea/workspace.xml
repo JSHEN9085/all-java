@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b0294d0f-67fe-413c-b76e-9687072fec3f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../ByteShortInt" beforeDir="false" afterPath="$PROJECT_DIR$/../ByteShortInt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Collections/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Collections/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Collections/com/company/Theatre$Seat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Collections/com/company/Theatre$Seat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Collections/com/company/Theatre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Collections/com/company/Theatre.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Theatre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java1" beforeDir="false" afterPath="$PROJECT_DIR$/../Java1" afterDir="false" />
@@ -15,12 +19,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+            <state relative-caret-position="1008">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -28,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Theatre.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="594">
+              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -49,8 +53,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Theatre.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Theatre.java" />
       </list>
     </option>
   </component>
@@ -65,7 +69,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,11 +92,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551841264107" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551841282489" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,17 +145,16 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13733906" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13876967" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32771084" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -158,6 +162,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -171,15 +176,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Theatre.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="594">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        <state relative-caret-position="1008">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
     </entry>
