@@ -24,6 +24,21 @@ public class MapPractice {
         }
 
         System.out.println("====================================");
+        if(languages.containsKey("C++")){
+            System.out.println(languages.remove("C++")); //this will return the value of the key("C++" for here)
+            System.out.println(languages.remove("Ruby", "Less popular")); //if we pass both key and value, return boolean
+        } else {
+            System.out.println(languages.remove("Hello")); //if HashMap doesn't have the key, return null
+        }
+        System.out.println("====================================");
+
+        System.out.println(languages.replace("Python", "Machine Learning")); //assign new value for the same key
+
+        if(languages.replace("JavaScript", "Front-end key language", "Can be run in back-end")){
+            System.out.println("JS is replaced");
+        } else {
+            System.out.println("JS is not replaced");
+        }
 
         for(String key : languages.keySet()){
             System.out.println(key + ": " + languages.get(key));
