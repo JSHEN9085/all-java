@@ -52,4 +52,6 @@ public class Main {
           return (double) sum / (double) array.length;
       }
 
+
+
 }

@@ -10,6 +10,8 @@ public class Main {
         timsPhone.callPhone(1234);
         timsPhone.answer();
 
+        System.out.println("=========================");
+
         timsPhone = new MobilePhone(24565);
         timsPhone.callPhone(24565);
         timsPhone.answer();
