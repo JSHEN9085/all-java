@@ -24,6 +24,11 @@ public class Main {
 //        ny.addPlayer(backham);
         System.out.println(ny.numPlayer());
 
+        Team<BaseballPlayer> baseballPlayerTeam = new Team<>("New York");
+        baseballPlayerTeam.addPlayer(pat);
+
+        Team<SoccerPlayer> soccerPlayerTeam = new Team<>("New York");
+        soccerPlayerTeam.addPlayer(backham);
 
     }
 
